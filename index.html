@@ -1,24 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel = "stylesheet" href = "main.css">
-    <title>About Me</title>
-</head>
-<body>
-    <h1>About Me!</h1>
-    <div id = "content">
-        <p>Hey there! My names Garrick! I'm an LCSC Web Development Major. I started going to LCSC as a computer science major when I 
-        realized that web development would make me feel like I was actually making something! Not that computer science majors don't
-        make things, I just wanted to make the end product that goes to the customer, which is why I moved to web development.
-        </p>
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1>About Me!</h1>
+        </div>
+      </div>
 
-        <p><strong>Fun Fact about Garrick:</strong> I took a trip to New York City the summer of 2017 as a graduation present from my 
-        grandmother, heres a picture I took!</p>
-        <img src = "niagra_falls.jpg">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <div class="callout">
+            <p>Hey, my name's Garrick! I am currently going to LCSC studying Web Development and Design. I originally started at LC as a Computer Science major but decided to change it up a bit. I moved to web development because I wanted to make the end product that customers would see rather then the tools to make the end product. With that being said I am very glad I changed majors to web development!</p>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="about-the-author">
+        <h3 class="author-title">My New York Trip</h3>
+        <div class="row">
+          <div class="small-12 medium-4 columns">
+            <div class="author-image">
+              <img src="niagra_falls.jpg" id = "niagra_falls">
+            </div>
+            
+          </div>
+          <div class="small-12 medium-8 columns">
+            <p>In 2017 I took a trip to New York. I went to all the big cities, checked out all the landmarks, and more. My favorite part of the trip was by far going to New York City, specifically going to Times Square. Standing in the middle of Times Square I found myself frozen in time. Buildings as tall as you can imagine, with screens bigger then you've ever seen, roads spanning for what looked like forever. It was quite honestly surreal. Other places I went to was Albany, Syracuse, The American Museum of Natural History, and Central Park. The picture shown above is my favorite picture I took while in New York, it was taken obviousl at Niagra Falls.</p>
+          </div>
+        </div>
+      </div>
+      
+      
+      
     </div>
 
-</body>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
