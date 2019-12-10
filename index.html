@@ -1,52 +1,68 @@
 <!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <h1>About Me!</h1>
-        </div>
-      </div>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Team Tees</title>
+<link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+<link rel = "stylesheet" href = "css/app.css">
+</head>
+<body>
 
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <div class="callout">
-            <p>Hey, my name's Garrick! I am currently going to LCSC studying Web Development and Design. I originally started at LC as a Computer Science major but decided to change it up a bit. I moved to web development because I wanted to make the end product that customers would see rather then the tools to make the end product. With that being said I am very glad I changed majors to web development!</p>
+<div class="top-bar">
+<div class="top-bar-left">
+<ul class="menu">
+<li class="menu-text">Home</li>
+</ul>
+</div>
+</div>
+
+<div class="callout large primary">
+<div class="row column text-center">
+<h1>Team Tees</h1>
+<h2 class="subheader">Welcome to the team.</h2>
+</div>
+</div>
+
+<div class="row medium-8 large-7 columns">
+<div class="blog-post">
+<h3>What we do.</h3>
+<img class="thumbnail" src = "pictures/assorted-t-shirts-2294342.jpg">
+<p>Our goal at Team Tees is to supply clothing to as many people in poverty as possible. And we would like you to help us.</p>
+
+</div>
+<div class="blog-post">
+<h3>How can you help?</h3>
+<img class="thumbnail" src="pictures/person-holding-banknote-928184.jpg">
+<p>We have made a deal with 100's of clothing designers to allow us to ask for a small amount of money. Five dollars. For only five dollars we can send 3 new outfits to one person. This means with a ten dollar bill you can put new clothes on two peoples backs.</p>
+
+</div>
+<div class="blog-post">
+<h3>How many have we helped so far?</h3>
+<img class="thumbnail" src="pictures/photo-of-people-taking-picture-on-road-2598630.jpg">
+<p>Since we just started we have only helped a handful of people. Roughly 30,000.</p>
+
+</div>
+
+<p></p>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>
+      $(document).foundation();
+    </script>
+
+<h3>Contact Us</h3>
+<form action = "https://formspree.io/xaynkowa" method = "POST">
+
+  <input id = "name" type = "text" placeholder = "Your name...">
+  <input id = "email" type = "text" placeholder = "Your email...">
+  <input id = "message" type = "text" placeholder = "Your message">
+  <button>Submit</button>
+</form>
 
 
-          </div>
-        </div>
-      </div>
-      <div class="about-the-author">
-        <h3 class="author-title">My New York Trip</h3>
-        <div class="row">
-          <div class="small-12 medium-4 columns">
-            <div class="author-image">
-              <img src="niagra_falls.jpg" id = "niagra_falls">
-            </div>
-            
-          </div>
-          <div class="small-12 medium-8 columns">
-            <p>In 2017 I took a trip to New York. I went to all the big cities, checked out all the landmarks, and more. My favorite part of the trip was by far going to New York City, specifically going to Times Square. Standing in the middle of Times Square I found myself frozen in time. Buildings as tall as you can imagine, with screens bigger then you've ever seen, roads spanning for what looked like forever. It was quite honestly surreal. Other places I went to was Albany, Syracuse, The American Museum of Natural History, and Central Park. The picture shown above is my favorite picture I took while in New York, it was taken obviousl at Niagra Falls.</p>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-    </div>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+    <footer>Garrick Coughenour &copy; 2019</footer>
+</body>
 </html>
